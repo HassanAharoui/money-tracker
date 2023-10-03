@@ -7,11 +7,12 @@
 .container {
 	display: grid;
 	grid-template-columns: 20% auto;
-	grid-template-rows: 657px;
+	height: 100vh;
+	background-color: black;
 }
 
 .nav-bar {
-	background-color: steelblue;
+	background-color:rgb(215, 87, 112);
 }
 
 .nav-bar ul {
@@ -25,7 +26,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: silver;
+	background-color: #fff;
 	margin-top: 10px;
 	margin-right: 10px;
 	text-align: center;
@@ -35,21 +36,22 @@
 
 .nav-bar ul li a {
 	text-decoration: none;
-	color: white;
+	color: #000;
 	font-size: 20px;
 	font-family: Arial;
 }
 
 .main-page {
 	width: 100%;
-	background-color: crimson;
+	height: 100vh;
+	background-color: rgb(241, 28, 71);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.material input , .price input{
+.material input {
 	margin: 10px 0;
 	padding-left: 10px;
 	font-size: 20px;
@@ -59,20 +61,26 @@
 	border-radius: 5px;
 }
 
-.label label , .label label {
+.material label  {
 	font-size: 30px;
-	background-color: black;
 	color: white;
 	border-radius: 4px;
 	padding: 0 5px;
 }
 
+.save-btn-primary {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .save-btn-primary button {
 	width: 100px;
-	height: 30px;
+	height: auto;
 	border: none;
 	background-color: ivory;
 	font-size: 15px;
 	font-weight: bold;
 	border-radius: 5px;
+	cursor: pointer;
 }
