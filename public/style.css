@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 20% auto;
+	grid-template-rows: 657px;
+}
+
+.nav-bar {
+	background-color: steelblue;
+}
+
+.nav-bar ul {
+	list-style: none;
+	margin-left: 10px;
+
+}
+
+.nav-bar ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: silver;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+	padding : 5px 0;
+}
+
+.nav-bar ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.main-page {
+	width: 100%;
+	background-color: crimson;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.material input , .price input{
+	margin: 10px 0;
+	padding-left: 10px;
+	font-size: 20px;
+	width: 250px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+}
+
+.label label , .label label {
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+	padding: 0 5px;
+}
+
+.save-btn-primary button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	background-color: ivory;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 5px;
+}

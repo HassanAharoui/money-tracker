@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Money Trucker App</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="nav-bar">
+			<ul>
+				<li><a href="">LOGO</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="./components/monthly_consumption.html">Monthly Consumption</a></li>
+				<li><a href="./components/weekly_consumption.html">Weekly Consumption</a></li>
+				<li><a href="./components/product_quantities.html">Product Quantities</a></li>
+			</ul>
+		</div>
+		<div class="main-page">
+			<form>
+				<div class="material">
+					<div class="label">
+						<label>Item :</label>				
+					</div>
+					<div>
+						<input type="text" name="item" id="item">
+					</div>
+
+				</div>
+				<div class="quantity">
+					<div class="label">
+						<label>Quantity :</label>
+					</div>
+					<div>
+						<input type="number" name="quantity" id="quantity">
+					</div>
+
+				</div>
+				<div class="type">
+					<div class="label">
+						<label>Type :</label>
+					</div>
+					<div>
+						<input type="text" name="type" id="type">
+					</div>
+
+				</div>
+				<div class="price">
+					<div class="label">
+						<label>Price :</label>
+					</div>
+					<div>
+						<input type="text" name="price" id="price">
+					</div>
+				</div>
+				<div class="save-btn-primary">
+					<button id="save-btn" type="submit">Save Material</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
